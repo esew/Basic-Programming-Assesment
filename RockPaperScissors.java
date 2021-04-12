@@ -15,7 +15,7 @@ public class RockPaperScissors {
             numOfRound = myScannerInt.nextInt();
             if (numOfRound < 0 || numOfRound > 10) {
                 System.out.println("ERROR!!! You can only play 1 - 10 rounds");
-                break;
+                break; // quits program
         }
             
             int tiesCount = 0;
